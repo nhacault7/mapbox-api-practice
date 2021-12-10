@@ -16,8 +16,7 @@ if (!navigator.geolocation) {
       center: [lon, lat], // starting position [lng, lat]
       zoom: 9 // starting zoom
     });
-
     // Create a default Marker and add it to the map.
-  const marker1 = new mapboxgl.Marker().setLngLat([lon, lat]).addTo(map);
+    const marker1 = new mapboxgl.Marker().setLngLat([lon, lat]).addTo(map);
   });
 }
